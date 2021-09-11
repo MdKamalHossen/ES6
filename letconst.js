@@ -1,7 +1,14 @@
-
-let sum = 0;
-let number = 10
-for(let i= 0 ; i<10; i++){
-     sum = sum + i;
+class Car{
+    constructor(cId, cName, cCC, cPrice, cKM){
+        this.id = cId;
+        this.Name = cName;
+        this.CC = cCC;
+        this.Price = cPrice;
+        this.Kilometer = cKM;
+        this.MadeIn = "Bangladesh"
+    }
 }
-console.log(i); //this is a scop variable
+const car = new Car("toyata", 1, 1500, 1200000, 10);
+// const car2 = new Car(1011, "BMW", 1200, 1200000, 12);
+// console.log(car, car2);
+console.log(car.id, car.Price, car.CC);

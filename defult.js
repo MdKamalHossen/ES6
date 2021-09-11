@@ -1,5 +1,11 @@
-function add(number1, number2 = 10){
-     return number1 + number2;
+// const number = 1;
+// const number= [];
+//const number = {}
+//const Name = '';
+//const Name = " " this is true
+if(Name){
+    console.log("the Condition is true");
 }
-const total = add(100);
-console.log(total);
+else{
+    console.log("this condition is false");
+}
